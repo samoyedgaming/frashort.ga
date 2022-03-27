@@ -57,18 +57,18 @@ body {
 }
 
 .btn-primary {
-    background : linear-gradient(0.25turn, #FFBC50, #AA31BD);
-    border : transparent;
+    background: linear-gradient(0.25turn, #FFBC50, #AA31BD);
+    border: transparent;
     cursor: pointer;
 
     color: #FFFFFF;
 
-  
+
     animation: fadeInAnimation 1s ease-in-out;
 }
 
 .inputStyle {
-    background-color: rgb(0,0,0,0);
+    background-color: rgb(0, 0, 0, 0);
     border-image: repeating-linear-gradient(0.25turn, #FFBC50, #AA31BD) 10;
     color: #C9CBC5;
     animation: fadeInAnimation 1s ease-in-out;
@@ -78,7 +78,7 @@ body {
     border-right: 0.08em solid #666;
 }
 
-.mfc-title-center{
+.mfc-title-center {
     /* font-size: 60px; */
     padding-bottom: 30px;
     padding-top: 40px;
@@ -90,7 +90,7 @@ body {
     font-size: 60px;
     color:#16d1ec;
 }
-*/ 
+*/
 
 
 @media (max-width: 767.98px) {
@@ -99,13 +99,13 @@ body {
     }
 }
 
-@media(max-width:480px){
+@media(max-width:480px) {
     .hide-in-mobile {
         display: none;
     }
 }
 
-    
+
 
 .mask {
     position: absolute;

@@ -15,6 +15,7 @@
   transition: 0.5s;
   white-space: nowrap;
 }
+
 #btn--yp:before {
   box-sizing: inherit;
   position: absolute;
@@ -33,7 +34,9 @@
   animation: float 1s ease-in-out infinite alternate;
   content: attr(data-txt);
 }
-#btn--yp:hover, #btn--yp:focus {
+
+#btn--yp:hover,
+#btn--yp:focus {
   outline: none;
   filter: grayscale(0) drop-shadow(0 0 1px crimson);
 }
@@ -43,6 +46,7 @@
     transform: translateY(0.75em);
   }
 }
+
 body {
   padding-top: 1em;
   background: currentcolor;
@@ -53,13 +57,16 @@ body {
 .dot {
   background: tomato;
 }
-.dot, .dot:after {
+
+.dot,
+.dot:after {
   display: inline-block;
   width: 2em;
   height: 2em;
   border-radius: 50%;
   animation: a 1.5s calc(((var(--i) + var(--o, 0))/var(--n) - 1)*1.5s) infinite;
 }
+
 .dot:after {
   --o: 1;
   background: currentcolor;
@@ -67,7 +74,9 @@ body {
 }
 
 @keyframes a {
-  0%, 50% {
+
+  0%,
+  50% {
     transform: scale(0);
   }
 }
