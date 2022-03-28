@@ -76,12 +76,6 @@ html {
     }
 }
 
-@media (max-width:480px) {
-    .hide-in-mobile {
-        display: none
-    }
-}
-
 .mask {
     position: absolute;
     top: 0;
@@ -102,7 +96,6 @@ html {
     font-family: helvetica, sans-serif;
     font-weight: 700
 }
-
 /*Buttons*/
 body {
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
